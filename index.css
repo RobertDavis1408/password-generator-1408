@@ -1,7 +1,7 @@
 /*font-family: 'Inter', sans-serif;
 font-family: 'Karla', sans-serif;*/
 body {
-    
+   margin: 0; 
 }
 
 
@@ -84,10 +84,7 @@ body {
   color: burlywood;
 }
 
-.moveButton {
-  transform: translateY(2px);
-  transition: transform 0.2s ease-in-out;
-}
+
 
 
 .options {
