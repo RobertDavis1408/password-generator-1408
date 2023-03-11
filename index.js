@@ -18,13 +18,11 @@ passwordLength.addEventListener('input', () => {
     passwordLengthValue.textContent = passwordLength.value;
     });
     
-generateBtn.addEventListener('click', generatePass);
+    button.addEventListener("click", function() {
+      button.classList.add("moveButton");
+    });
 
-
-
-button.addEventListener("click", function() {
-  button.classList.add("moveButton");
-});
+    generateBtn.addEventListener('click', generatePass);
 
 function generatePass() {
     const length = passwordLength.value;

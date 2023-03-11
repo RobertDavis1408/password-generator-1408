@@ -78,13 +78,14 @@ body {
     left: 52px;
     top: 284px;
 }
+
 #generateBtn:hover {
   cursor: pointer;
   color: burlywood;
 }
 
 .moveButton {
-  transform: translateY(5px);
+  transform: translateY(2px);
   transition: transform 0.2s ease-in-out;
 }
 
