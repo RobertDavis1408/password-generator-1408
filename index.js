@@ -12,12 +12,19 @@ const uppercaseCheck = document.getElementById('uppercase');
 const numbersCheck = document.getElementById('numbers');
 const symbolsCheck = document.getElementById('symbols');
 const generateBtn = document.getElementById('generateBtn');
+var button = document.getElementById("generateBtn");
 
 passwordLength.addEventListener('input', () => {
     passwordLengthValue.textContent = passwordLength.value;
     });
     
 generateBtn.addEventListener('click', generatePass);
+
+
+
+button.addEventListener("click", function() {
+  button.classList.add("moveButton");
+});
 
 function generatePass() {
     const length = passwordLength.value;
