@@ -1,0 +1,202 @@
+/*font-family: 'Inter', sans-serif;
+font-family: 'Karla', sans-serif;*/
+body {
+    
+}
+
+
+
+#hero {
+    margin: 0;
+    height: 610px;
+    width: 550px;
+    background-color: #1F2937;
+    font-family: 'Karla', sans-serif;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+#heading {
+    height: 80px;
+    width: 345px;
+    color: #FFFFFF;
+    font-weight: 800;
+    line-height: 40px;
+    font-size: 40px;
+    letter-spacing: -0.025em;
+    position: absolute;
+    width: 354px;
+    height: 80px;
+    left: 52px;
+    top: 115px;
+    
+        
+}
+
+#heading-rnd-pass-txt {
+    color: #4ADF86;
+    
+}
+#sup-txt {
+    width: 372px;
+    height: 28px;
+    font-family: 'Inter', sans-serif;
+    color: #D5D4D8;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 20px;
+    position: absolute;
+    width: 372px;
+    height: 28px;
+    left: 52px;
+    top: 205px;
+}
+#generateBtn {
+    height: 42px;
+    width: 191px;
+    display: flex;
+    background-color: #10B981;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px; 
+    position: absolute;
+    width: 191px;
+    height: 42px;
+    left: 52px;
+    top: 284px;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 42px;
+  width: 191px;
+  position: absolute;
+  top: 284px;
+  left: 302px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  color:  #9CA3AF;
+  font-size: 14px;
+}
+
+#symbols-text {
+    position: absolute;
+    left: 0px;
+    top: 30px;
+   
+}
+
+
+
+#uppercase-text {
+    position: absolute;
+    left: 100px;
+    top: px;
+    
+}
+
+#numbers-text {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    
+}
+
+#lowercase-text {
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    
+}
+
+
+
+#line {
+    position: absolute;
+    width: 446px;
+    height: 0px;
+    left: 52px;
+    top: 361px;
+    border: 1px solid #2F3E53;
+    
+}
+
+.pass-txt {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #55F991;
+    padding: 3.5px 0 ;
+}
+
+#container-one {
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    left: 52px;
+    top: 446px;
+    background: #273549;
+    border-radius: 6px;
+
+}
+
+#container-two {
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    left: 287px;
+    top: 446px;
+    background: #273549;
+    border-radius: 6px;
+}
+
+#copy-to-click-text {
+    font-family: 'Inter';
+    position:absolute ; 
+    left:  168px ;
+    top: 475px;
+    color:  #9CA3AF;
+}
+
+#pass-length-text {
+    position:absolute ; 
+    left: 52px ;
+    top: 370px;
+    font-family: inter;
+    color: #9CA3AF;
+}
+
+#password-length {
+    position:absolute ; 
+    left: 52px ;
+    top: 395px;
+    font-family: inter;
+    color: #9CA3AF
+    
+}
+
+#password-length-value {
+    position:absolute ; 
+    left: 195px ;
+    top: 370px;
+    font-family: inter;
+    color: #55F991;
+}
